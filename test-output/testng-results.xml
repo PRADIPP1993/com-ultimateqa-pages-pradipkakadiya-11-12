@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[click the sign in link [[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[enter email to the email fieldpraidp123@gmail.com[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> id: user[email]]]]>
+    </line>
+    <line>
+      <![CDATA[enter password to the password fieldtest123[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> name: user[password]]]]>
+    </line>
+    <line>
+      <![CDATA[click to sign in button[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="smoke suite" duration-ms="10679" started-at="2022-12-13T08:52:38 GMT" finished-at="2022-12-13T08:52:48 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="smoke Test" duration-ms="10679" started-at="2022-12-13T08:52:38 GMT" finished-at="2022-12-13T08:52:48 GMT">
+      <class name="com.ultimateqa.courses.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="6615" started-at="2022-12-13T08:52:38 GMT" finished-at="2022-12-13T08:52:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="49" started-at="2022-12-13T08:52:45 GMT" finished-at="2022-12-13T08:52:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="verifyTheErrorMessage" duration-ms="3488" started-at="2022-12-13T08:52:45 GMT" finished-at="2022-12-13T08:52:48 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click the sign in link [[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[enter email to the email fieldpraidp123@gmail.com[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> id: user[email]]]]>
+            </line>
+            <line>
+              <![CDATA[enter password to the password fieldtest123[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> name: user[password]]]]>
+            </line>
+            <line>
+              <![CDATA[click to sign in button[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (ad0ad1e95b88a638c89df8052b3f6892)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-12-13T08:52:48 GMT" finished-at="2022-12-13T08:52:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.courses.testsuite.LoginPageTest -->
+    </test> <!-- smoke Test -->
+  </suite> <!-- smoke suite -->
+</testng-results>
